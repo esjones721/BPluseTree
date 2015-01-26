@@ -23,5 +23,19 @@ public class Main_App {
         System.out.println(x3);
         boolean x4 = d.search("alexww");
         System.out.println(x4);
+        
+        System.out.println("\n");
+        Dictionary e = new Dictionary();
+        e.loadDic("one-20.txt"); 
+        
+        boolean a1 = e.search("5");
+        System.out.println(a1);
+        boolean a2 = e.search("12");
+        System.out.println(a2);
+        boolean a3 = e.search("18");
+        System.out.println(a2);
+        boolean a4 = e.search("22");
+        System.out.println(a4);
+        
     }
 }
